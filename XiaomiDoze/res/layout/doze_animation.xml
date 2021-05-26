@@ -15,15 +15,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="@integer/lottie_height"
+    android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal" >
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/doze_lottie"
         android:layout_width="match_parent"
-        android:visibility="@integer/lottie_view"                                                                      
-        android:layout_height="120dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
         android:clickable="false"
         app:lottie_rawRes="@raw/display"
